@@ -1,0 +1,23 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Compiled class files
+*.class
+
+# Maven (if any of your projects use it)
+target/
+
+# Gradle (if any of your projects use it)
+.gradle/
+build/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
