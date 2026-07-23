@@ -1,4 +1,22 @@
-.idea/
-out/
+# Maven
 target/
+
+# IntelliJ
+.idea/
 *.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Spring Boot
+HELP.md
+*.log
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db
