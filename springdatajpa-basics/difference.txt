@@ -1,0 +1,10 @@
+Difference between JPA, Hibernate, and Spring Data JPA
+JPA : It defines a set of interfaces/annotations (@Entity, EntityManager, etc.) for how Java objects should map to
+      database tables. It has no implementation of its own.
+Hibernate : The most popular implementation of the JPA specification. It's an ORM (Object-Relational Mapping)
+      tool that does the actual work: generating SQL, managing the persistence context, handling caching, etc.
+
+Spring Data JPA : sits on top of JPA (and by extension, Hibernate underneath). It removes boilerplate. Instead of
+      writing EntityManager queries by hand, you just declare an interface like BookRepository extends
+      JpaRepository<Book, Long> and Spring generates the implementation (CRUD methods, query derivation from
+       method names, etc.) at runtime.
